@@ -1,0 +1,54 @@
+/*mobile*/
+@media screen and (max-width:376px){
+
+
+    .photo, .photo2{
+
+        width: 160px;
+        border-radius: 50%;
+    }
+    
+    .desc{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 1.1rem;
+        
+    }
+
+    .redes-socias{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top: 30px;
+    
+    }
+   
+}
+
+  
+
+@media screen and (min-width:1200px){
+
+.container{
+
+    display: none;
+}
+
+.aviso{
+
+    width: 100%;
+    text-align: center;
+    display: block;
+    color:white;
+}
+   
+} 

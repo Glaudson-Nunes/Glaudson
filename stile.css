@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&family=Source+Sans+Pro:wght@200;300&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,64,1) 45%, rgb(8, 8, 64) 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.span{
+
+    color: white;
+    font-size: 0.9rem;
+    color: #cccccc9b;
+    margin-top: -10px;
+}
+
+.photo, .photo2{
+
+    width: 160px;
+    border-radius: 50%;
+}
+
+.photo2{
+
+    display: none;
+}
+
+.foto{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.desc{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 1.2rem;
+    
+}
+
+
+.box h2{
+
+    font-size: 1.4rem;
+}
+
+.redes-socias{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.git, .linkdln{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.techs{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.aviso{
+    width: 100%;
+    text-align: center;
+    display: none;
+
+}
+
+.projetos{
+
+    width: 100%;
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+    gap: 30px;
+}
+
+.projeto1, .projeto2, .projeto3{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 0.9px solid #cccccc6a;
+    width: 80%;
+    padding: 20px;
+}
+
+.imgp{
+
+border-radius: 8px;
+
+}
+
+.tp{
+
+    color: rgba(255, 255, 0, 0.745);
+
+}
+
+.btc{
+
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.888);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape{
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+}
